@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -40,9 +41,11 @@ export default function Home() {
         </div>
 
         {/* Call to Action */}
-        <button className="mt-8 bg-pink-500 text-white font-semibold py-3 px-10 rounded-full text-lg shadow-lg hover:bg-pink-600 hover:scale-105 transition-transform">
-          Start Review
-        </button>
+          <Link href="https://glitchy.go2cloud.org/aff_c?offer_id=970&aff_id=2431">  {/* Add your desired link here */}
+          <div className="mt-8 bg-pink-500 text-white font-bold py-3 px-10 rounded-full text-2xl shadow-lg hover:bg-pink-600 hover:scale-105 transition-transform">
+            Start Review
+          </div>
+        </Link>
       </main>
 
     </div>

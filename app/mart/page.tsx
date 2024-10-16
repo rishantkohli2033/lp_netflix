@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
           <Image
             src="/Walmart-Logo.png"  // Replace with the path to your Walmart logo image
             alt="Walmart Logo"
-            width={350}
+            width={300}
             height={100}
             priority={true}
           />
@@ -40,9 +41,11 @@ export default function Home() {
         </div>
 
         {/* Call to Action */}
-        <button className="mt-4 bg-yellow-500 text-white font-semibold py-4 px-10 rounded-full text-lg shadow-lg hover:bg-yellow-600 hover:scale-105 transition-transform">
-          Start Review
-        </button>
+        <Link href="https://glitchy.go2cloud.org/aff_c?offer_id=972&aff_id=2431">  {/* Add your desired link here */}
+          <div className="mt-4 bg-yellow-500 text-white font-semibold py-4 px-10 rounded-full text-2xl shadow-lg hover:bg-yellow-600 hover:scale-105 transition-transform">
+            Start Review
+          </div>
+        </Link>
       </main>
 
     </div>
