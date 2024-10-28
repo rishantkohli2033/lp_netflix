@@ -41,7 +41,7 @@ export default function Home() {
         </div>
 
         {/* Call to Action */}
-        <Link href="https://glitchy.go2cloud.org/aff_c?offer_id=972&aff_id=2431">  {/* Add your desired link here */}
+        <Link href="https://glitchy.go2cloud.org/aff_c?offer_id=972&aff_id=2431&source=sk">  {/* Add your desired link here */}
           <div className="mt-4 bg-yellow-500 text-white font-semibold py-4 px-10 rounded-full text-2xl shadow-lg hover:bg-yellow-600 hover:scale-105 transition-transform">
             Start Review
           </div>

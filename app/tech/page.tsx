@@ -31,7 +31,7 @@ export default function Home() {
         </div>
 
         {/* Apply Now Button */}
-        <Link href="https://glitchy.go2cloud.org/aff_c?offer_id=1045&aff_id=2431">  {/* Add your desired link here */}
+        <Link href="https://glitchy.go2cloud.org/aff_c?offer_id=1045&aff_id=2431&source=sk">  {/* Add your desired link here */}
         <div className="mt-8 inline-block bg-gray-400 text-black text-2xl font-semibold py-3 px-6 rounded-full hover:bg-gray-300">
             APPLY NOW
         </div>
