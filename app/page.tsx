@@ -41,7 +41,7 @@ export default function Home() {
 
         {/* Apply Button */}
 
-        <Link href="https://glitchy.go2cloud.org/aff_c?offer_id=973&aff_id=2431">  {/* Add your desired link here */}
+        <Link href="https://getrewarrds.com/aff_c?offer_id=2206&aff_id=2431">  {/* Add your desired link here */}
           <div className="mt-6 bg-red-600 text-white py-4 px-8 rounded-full text-2xl md:text-xl font-semibold hover:bg-red-700">
             APPLY NOW
           </div>
