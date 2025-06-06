@@ -45,7 +45,7 @@ export default function Home() {
             Reviewer
           </h1>
           <p className="text-lg">Get exclusive rewards and review the latest music and features.</p>
-          <a href="/join">
+          <a href="https://getrewarrds.com/aff_c?offer_id=1970&aff_id=2431">
             <button className="mt-6 px-6 py-2 bg-black text-green-400 border border-green-400 rounded hover:shadow-lg hover:shadow-green-300 hover:brightness-110 transition duration-300">
               Join Now
             </button>
